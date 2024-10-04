@@ -35,4 +35,10 @@ QLoRA is an advancement in the fine-tuning method introduced by LoRA. It further
 ## Conclusion
 QLoRA offers a memory-efficient approach to fine-tuning Large Language Models, making them more accessible and practical for deployment in memory-constrained environments. By quantizing the weights of LoRA adapters to lower precision, QLoRA strikes a balance between memory efficiency and model performance, enabling efficient adaptation of LLMs to various tasks and domains.
 
+This research demonstrated the potential of parameter-efficient fine-tuning strategies, notably Quantized Low-Rank Adaptation (QLoRA), to improve the usability and accessibility of large language models (LLMs) like Microsoft's Phi-2. QLoRA provides a viable method for deploying LLMs in memory-constrained contexts, overcoming the difficulty of resource-intensive fine-tuning and thereby broadening their usefulness across a greater number of applications in Natural Language Processing.
+
+The practical experiments and evaluations done in this study offered strong evidence of QLoRA's effectiveness in parameter-efficient fine-tuning of Phi-2 for dialogue summarization tasks. The observed gains in performance indicators demonstrate the importance of QLoRA in optimizing LLMs for specific applications while minimizing resource restrictions.
+
+The promising results obtained from the performance evaluation underscore the potential of optimized Phi-2 as a robust tool for dialogue summarization applications. The future work could be contributed towards the further fine-tuning of the model, exploration of alternative evaluation metrics, and extension of the study to diverse dialogue datasets to enhance the generalizability of the findings.
+
 ---
